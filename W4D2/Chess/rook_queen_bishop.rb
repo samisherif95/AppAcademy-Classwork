@@ -1,2 +1,0 @@
-class Rqb
-end
