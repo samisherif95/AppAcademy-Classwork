@@ -1,0 +1,46 @@
+<!-- # <h1>name: <%= @cat.name %></h1>
+# <ul>
+#     <br>
+#         <li>age: <%= @cat.age %></li>
+#         <li>color: <%= @cat.color %></li>
+#         <li>sex: <%= @cat.sex %></li>
+#         <li>description: <%= @cat.description %></li>
+# </ul>-->
+<style>
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="2"><%= @cat.name %></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>age: </td>
+            <td><%= @cat.age %></td>
+        </tr>
+        <tr>
+            <td>color: </td>
+            <td><%= @cat.color %></td>
+        </tr>
+        <tr>
+            <td>sex: </td>
+            <td><%= @cat.sex %></td>
+        </tr>
+        <tr>
+            <td>description: </td>
+            <td><%= @cat.description %></td>
+        </tr>
+    </tbody>
+</table>
