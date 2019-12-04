@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GoalApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <h1>GOALING APP</h1>
+    <%if !logged_in?%>
+      <a href="<%= new_user_url%>">Sign up</a>
+    <% else %>
+      <a href="<%= session_url%>">Log_out</a> 
+    <%end%>
+    <%= yield %>
+  </body>
+</html>
