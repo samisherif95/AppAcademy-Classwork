@@ -1,0 +1,26 @@
+.grid {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.pos {
+    border-radius: 25px;
+    
+    width: 32%;
+    height: 33%;
+    background-color: red;
+    border: 3px solid black;
+    margin: 0px 0px;
+    list-style-type: none;
+    font-size: 100px;
+    text-align: center;
+}
+
+.fuckEl:hover{
+  background-color: yellow;
+}
+
+

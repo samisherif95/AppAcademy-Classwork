@@ -1,0 +1,11 @@
+/* PHASE 9: Forms */
+.form-thumb{
+    float: left;
+    
+}
+.form-fieldset{
+    float: left;
+}
+.input:nth-child(2):focus{
+    border: 1px green solid;
+}
